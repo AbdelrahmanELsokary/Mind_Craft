@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -182,4 +182,42 @@ header ul li a {
 .competitions .robotics img {
   width: 400px;
   border-radius: 20px;
+}
+footer {
+  background-color: rgb(31, 28, 28);
+  padding-top: 50px;
+}
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo a {
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: capitalize;
+  font-size: xxx-large;
+  padding: 25px;
+}
+footer .container_footer .info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+footer .container_footer .info img {
+  padding: 0 15px 0 0;
+}
+footer .container_footer .info a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.social {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.social a {
+  padding: 30px;
 }

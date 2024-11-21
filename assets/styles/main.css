@@ -90,7 +90,7 @@ header ul li a {
   top: 2px;
   right: 40px;
 }
-.who_are_we  {
+.who_are_we {
   padding: 60px 0 30px 0;
   background-color: blanchedalmond;
 }
@@ -136,115 +136,53 @@ header ul li a {
   display: flex;
   border: 1px solid;
 }
-
 .container_credits h3 {
   font-size: 30px;
   text-transform: capitalize;
 }
-.competitions {
+.competitions .container_competitions {
   display: flex;
+  justify-content: space-between;
   background-image: linear-gradient(rgb(233, 255, 252), rgb(237, 237, 238), rgb(160, 133, 242), rgb(123, 40, 240));
 }
-.competitions .fll {
+.competitions h2 {
+  text-align: center;
+  font-size: xx-large;
+  text-transform: capitalize;
+  padding: 30px;
+}
+.competitions .container_competitions .fll h3,
+.math h3,
+.robotics h3 {
   display: flex;
-  width: 263px;
-  height: 200px;
-
+  justify-content: center;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.competitions .container_competitions .fll_competition,
+.robotex_competition,
+.math_competition {
+  display: flex;
+  width: 400px;
   overflow-x: auto;
-  margin: 10px;
 }
-.competitions .fll img {
-  width: 300px;
+.competitions .container_competitions .fll img,
+.competitions .robotics img,
+.math_competition {
+  width: 400px;
   border-radius: 20px;
 }
-.competitions .robotics {
-  width: 263px;
-  height: 200px;
-  /* background-color: black; */
-  display: flex;
-  overflow-x: scroll;
-  margin: 10px;
-}
-.competitions .robotics img {
-  width: 250px;
-  border-radius: 20px;
-}
-.competitions .mathcomptation {
-  width: 263px;
-  height: 200px;
-  /* background-color: black; */
-  display: flex;
-  overflow-x: scroll;
-  margin: 10px;
-}
-.competitions .mathcomptation img {
-  width: 200px;
-  border-radius: 20px;
 
-  left: 25px;
-}
-.competitions .son {
-  display: flex;
-  justify-content: space-around;
-  /* background-color: blue; */
-  width: 90%;
-  left: 45px;
-  top: 10px;
-}
-.ff {
-  background: linear-gradient(to top left, rgb(252, 8, 207), rgba(38, 255, 0, 0.532));
-}
-.ff h2 {
-  color: rgb(0, 0, 0);
-  text-transform: capitalize;
-
-  bottom: 4px;
-}
-.competitions .titel {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  justify-content: space-around;
-}
-.competitions .titel h4 {
-  text-transform: capitalize;
-  font-size: 17px;
-}
-
-.span {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-
-  text-transform: capitalize;
-  left: 5.5%;
-}
-.competitions .titel .span span {
-  font-family: monospace;
-  font-size: larger;
-  font-weight: bold;
-}
-.h3 {
-  width: 13.5%;
-  font-family: monospace;
-  font-size: 15px;
-  text-transform: capitalize;
-}
 footer {
-  width: 100%;
-  height: 250px;
   background-color: rgb(38, 38, 38);
 }
 .footer {
-  /* background: #fff; */
   display: flex;
   align-items: center;
 
   top: 28px;
 }
 .footer .contact {
-  /* background-color: aqua; */
   width: 350px;
   height: 190px;
   display: flex;

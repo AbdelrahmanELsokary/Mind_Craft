@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,6 +36,7 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: #ffffff;
+  text-transform: uppercase;
 }
 .hero {
   background-image: url(../images/logos/bg.jpg);
@@ -142,7 +145,7 @@ header ul li a {
 }
 .competitions .container_competitions {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-image: linear-gradient(rgb(233, 255, 252), rgb(237, 237, 238), rgb(160, 133, 242), rgb(123, 40, 240));
 }
 .competitions h2 {
@@ -160,96 +163,23 @@ header ul li a {
   padding: 15px;
 }
 .competitions .container_competitions .fll_competition,
-.robotex_competition,
-.math_competition {
+.robotex_competition {
   display: flex;
   width: 400px;
   overflow-x: auto;
 }
-.competitions .container_competitions .fll img,
-.competitions .robotics img,
-.math_competition {
-  width: 400px;
+.math .math_competition {
+  display: flex;
+  width: 300px;
+  height: 315px;
+  overflow-x: auto;
+}
+.math_competition img {
+  width: 405px;
   border-radius: 20px;
 }
-
-footer {
-  background-color: rgb(38, 38, 38);
-}
-.footer {
-  display: flex;
-  align-items: center;
-
-  top: 28px;
-}
-.footer .contact {
-  width: 350px;
-  height: 190px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.footer .contact i {
-  width: 40px;
-  height: 40px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.335);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-
-  left: 90px;
-}
-
-.footer .contact .info {
-  /* background-color: rgb(193, 177, 177); */
-
-  left: 100px;
-  width: 280px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.footer .contact .info a {
-  margin: 23px;
-
-  left: 0;
-  color: #fff;
-  border: none;
-}
-.border {
-  background-color: black;
-  height: 200px;
-  width: 1px;
-
-  left: 160px;
-  bottom: 20px;
-}
-.icons {
-  /* background-color: aliceblue; */
-  width: 70%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.icons a {
-  margin-left: 30px;
-  color: #fff;
-  border: none;
-
-  left: 70px;
-  top: 50%;
-}
-.icons h6 {
-  top: 50px;
-  left: auto;
-  left: 70.5%;
-  text-transform: capitalize;
-  font-weight: 200;
-  font-size: 20px;
-  color: #fff;
+.competitions .container_competitions .fll img,
+.competitions .robotics img {
+  width: 400px;
+  border-radius: 20px;
 }
